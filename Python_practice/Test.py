@@ -10,4 +10,4 @@ while not_found:
       break
     else:
       print(i)
-print(f"Yeah I got my lucky number {lucky_number}! 🍀")
+print(f"Yay I got my lucky number {lucky_number}! 🍀")
