@@ -12,3 +12,4 @@ while not_found:
       print(i)
 print(f"Yay I got my lucky number {lucky_number}! 🍀")
 print("I am done with the loop!")
+print("Enjoy your day!")
