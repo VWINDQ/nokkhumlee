@@ -11,3 +11,4 @@ while not_found:
     else:
       print(i)
 print(f"Yay I got my lucky number {lucky_number}! 🍀")
+print("I am done with the loop!")
