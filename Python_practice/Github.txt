@@ -5,3 +5,15 @@ git add .
 git commit -m 'Your commit message here!'
 git status
 git push -u origin main
+
+
+*Remove*
+git rm -r --cached ชื่อโฟลเดอร์
+git commit
+git push origin main
+
+*Restore*
+nano .gitignore
+
+*TOKEN* (30 days)
+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

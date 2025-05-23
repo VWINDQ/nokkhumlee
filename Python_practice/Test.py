@@ -1,17 +1,17 @@
-import random
+Liked_songs = {
+    'We cant be friends': 'Ariana Grande',
+    'Supernatural': 'Ariana Grande',
+    'Love me harder': 'Ariana Grande',
+    'Die for you': 'The Weeknd',
+    'Save your tears': 'The Weeknd',
+    'Call out my name': 'The Weeknd',
+    'Blinding lights': 'The Weeknd',
+}
 
-lucky_number = random.randint(1, 10)
-not_found = True
+def write_liked_songs(songs, filename):
+    with open(filename, 'w') as file:
+        file.write('Liked_song:\n')
+        for song, artist in songs.items():
+            file.write(f"{song} by {artist}\n")
 
-while not_found:
-  for i in range(1, 10):
-    if i == lucky_number:
-      not_found = False
-      break
-    else:
-      print(i)
-print(f"Yay I got my lucky number {lucky_number}! 🍀")
-print("I am done with the loop!")
-print("Enjoy your day!")
-print('bye!')
-print('END')
+write_liked_songs(Liked_songs, "liked_songs.txt")
