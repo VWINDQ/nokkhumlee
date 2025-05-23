@@ -5,9 +5,7 @@ score = {'score[1]' : 36, 'score[2]' : 42, 'score[3]' : 29, 'score[4]' : 55, 'sc
 
 vld_score = [s for s in score.values() if s != -1]
 n = len(vld_score)
-if n == 0:
-    avr = 0
-else: avr = sum(vld_score) / n
+avr = sum(vld_score) / n
 
 def calc_ssd(scorels, average):
     ssd = sum((s - average) ** 2 for s in scorels)
