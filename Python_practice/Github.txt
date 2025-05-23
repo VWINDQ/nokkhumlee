@@ -15,5 +15,3 @@ git push origin main
 *Restore*
 nano .gitignore
 
-*TOKEN* (30 days)
-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
